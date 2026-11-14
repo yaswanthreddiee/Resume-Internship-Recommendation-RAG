@@ -1,0 +1,1115 @@
+[
+  {
+    "candidate_id": "CAND-01",
+    "candidate_name": "Aarav Sharma",
+    "email": "aarav.sharma.test@example.com",
+    "target_category": "Backend Development",
+    "scenario_description": "Python + Django candidate -> Backend internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science and Engineering",
+      "college": "National Institute of Technology, Karnataka",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Django",
+        "Django REST Framework"
+      ],
+      "tools": [
+        "Git",
+        "PostgreSQL",
+        "Docker",
+        "Postman",
+        "Linux"
+      ]
+    },
+    "projects": [
+      {
+        "title": "E-Commerce Micro-Backend Service",
+        "description": "Architected a high-throughput Django REST service with JWT authentication, PostgreSQL relational schema, and Redis caching for product catalog queries.",
+        "technologies": [
+          "Python",
+          "Django",
+          "Django REST Framework",
+          "PostgreSQL",
+          "Redis"
+        ]
+      },
+      {
+        "title": "Automated Invoice Billing API",
+        "description": "Implemented idempotent billing webhooks and PDF invoice generation backend in Django with Celery asynchronous task workers.",
+        "technologies": [
+          "Python",
+          "Django",
+          "Celery",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Backend Intern",
+        "company": "TechVenture Labs [Academic]",
+        "duration": "3 months",
+        "description": "Built CRUD REST endpoints using Django and DRF; improved SQL query latency by adding appropriate database indexes."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Meta Back-End Developer Specialization",
+      "PostgreSQL for Everybody"
+    ],
+    "other_information": "Enthusiastic about scalable backend architectures and API security."
+  },
+  {
+    "candidate_id": "CAND-02",
+    "candidate_name": "Priya Patel",
+    "email": "priya.patel.test@example.com",
+    "target_category": "Machine Learning",
+    "scenario_description": "Python + Machine Learning candidate -> AI/ML internships",
+    "education": {
+      "degree": "B.E.",
+      "specialization": "Artificial Intelligence and Data Science",
+      "college": "Pune Institute of Computer Technology",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "Scikit-Learn",
+        "XGBoost",
+        "LightGBM",
+        "PyTorch"
+      ],
+      "tools": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "JupyterLab",
+        "Git"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Customer Churn Prediction Engine",
+        "description": "Developed gradient-boosted decision tree pipeline (XGBoost) achieving 0.89 ROC-AUC with extensive feature engineering and SHAP explainability.",
+        "technologies": [
+          "Python",
+          "Scikit-Learn",
+          "XGBoost",
+          "Pandas",
+          "SHAP"
+        ]
+      },
+      {
+        "title": "Predictive Maintenance for Industrial Sensors",
+        "description": "Trained random forest and isolation forest models on multivariate time-series sensor data to detect anomalous equipment failure.",
+        "technologies": [
+          "Python",
+          "Scikit-Learn",
+          "NumPy",
+          "Matplotlib"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "Machine Learning Specialization by Andrew Ng",
+      "Kaggle Competitions Master (Top 5%)"
+    ],
+    "other_information": "Passionate about tabular data modeling and production ML pipelines."
+  },
+  {
+    "candidate_id": "CAND-03",
+    "candidate_name": "Rohan Deshmukh",
+    "email": "rohan.deshmukh.test@example.com",
+    "target_category": "Data Science",
+    "scenario_description": "SQL + Statistics candidate -> Data Science internships",
+    "education": {
+      "degree": "M.Sc",
+      "specialization": "Applied Statistics and Informatics",
+      "college": "Indian Statistical Institute",
+      "graduation_year": 2024
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "SciPy",
+        "Statsmodels",
+        "Scikit-Learn"
+      ],
+      "tools": [
+        "SQL",
+        "Pandas",
+        "Excel",
+        "Tableau",
+        "Git"
+      ]
+    },
+    "projects": [
+      {
+        "title": "A/B Testing Framework & Causal Inference",
+        "description": "Formulated hypothesis tests, sample size estimation, and variance reduction (CUPED) for user conversion experiments across 100k samples.",
+        "technologies": [
+          "Python",
+          "Statistics",
+          "Hypothesis Testing",
+          "SQL",
+          "SciPy"
+        ]
+      },
+      {
+        "title": "Econometric Time Series Modeling",
+        "description": "Built ARIMA and vector autoregression (VAR) models to evaluate macroeconomic inflation indicators and stationarity.",
+        "technologies": [
+          "R",
+          "Python",
+          "Statsmodels",
+          "Pandas"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Data Science Intern",
+        "company": "StatMetrics Advisory",
+        "duration": "4 months",
+        "description": "Cleaned multi-million row SQL datasets, constructed regression models, and verified homoscedasticity assumptions."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Applied Data Science with Python - Coursera",
+      "Advanced SQL for Data Scientists"
+    ],
+    "other_information": "Strong foundation in Bayesian inference, probability distributions, and scientific computing."
+  },
+  {
+    "candidate_id": "CAND-04",
+    "candidate_name": "Ananya Iyer",
+    "email": "ananya.iyer.test@example.com",
+    "target_category": "Frontend Development",
+    "scenario_description": "React + JavaScript candidate -> Frontend internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Information Technology",
+      "college": "Vellore Institute of Technology",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "frameworks": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Redux Toolkit"
+      ],
+      "tools": [
+        "Git",
+        "Webpack",
+        "Vite",
+        "Figma",
+        "VS Code",
+        "Jest"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Interactive Analytics SaaS Dashboard",
+        "description": "Engineered a responsive single page application in React 18 and Tailwind CSS featuring dark mode, charts, and optimistic UI updates.",
+        "technologies": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "Redux Toolkit",
+          "Chart.js"
+        ]
+      },
+      {
+        "title": "Real-time Collaborative Whiteboard",
+        "description": "Constructed high-performance canvas drawing tool in React with WebSockets and undo/redo state stacks.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "HTML5 Canvas",
+          "CSS3"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Frontend Web Intern",
+        "company": "PixelCanvas Media",
+        "duration": "2 months",
+        "description": "Converted Figma wireframes into responsive React components; improved Lighthouse performance score from 68 to 94."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Meta Front-End Developer Certificate",
+      "Responsive Web Design - freeCodeCamp"
+    ],
+    "other_information": "Active contributor to open-source UI component libraries."
+  },
+  {
+    "candidate_id": "CAND-05",
+    "candidate_name": "Aditya Verma",
+    "email": "aditya.verma.test@example.com",
+    "target_category": "Generative AI",
+    "scenario_description": "Python + NLP + LLM candidate -> Generative AI internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science with AI Specialization",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "LangChain",
+        "LlamaIndex",
+        "HuggingFace",
+        "PyTorch"
+      ],
+      "tools": [
+        "ChromaDB",
+        "FastAPI",
+        "Docker",
+        "Git",
+        "OpenAI API",
+        "Sentence Transformers"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Domain-Specific Document RAG Search System",
+        "description": "Implemented multi-stage Retrieval-Augmented Generation pipeline using ChromaDB, all-MiniLM-L6-v2 embeddings, and Gemini LLM synthesis.",
+        "technologies": [
+          "Python",
+          "ChromaDB",
+          "Sentence Transformers",
+          "LangChain",
+          "RAG",
+          "LLMs"
+        ]
+      },
+      {
+        "title": "Medical Knowledge Assistant with Fine-tuned LoRA",
+        "description": "Fine-tuned open LLM (Llama 3 8B) with LoRA on instruction dataset for biomedical entity recognition and clinical QA.",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "HuggingFace",
+          "LoRA",
+          "NLP"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "AI Research Intern",
+        "company": "NeuralText Labs",
+        "duration": "4 months",
+        "description": "Benchmarked retrieval chunking strategies, dense vs sparse hybrid search, and hallucination scoring on proprietary PDFs."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "DeepLearning.AI Generative AI for Everyone",
+      "HuggingFace NLP Course Completion"
+    ],
+    "other_information": "Researcher in retrieval evaluation metrics (Recall@K, MRR) and vector database indexing."
+  },
+  {
+    "candidate_id": "CAND-06",
+    "candidate_name": "Siddharth Nair",
+    "email": "siddharth.nair.test@example.com",
+    "target_category": "Java Development",
+    "scenario_description": "Java + Spring Boot candidate -> Java Backend internships",
+    "education": {
+      "degree": "B.E.",
+      "specialization": "Computer Science and Engineering",
+      "college": "College of Engineering, Guindy",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Java",
+        "SQL"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate",
+        "Spring Security"
+      ],
+      "tools": [
+        "Maven",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "JUnit",
+        "Mockito",
+        "Postman"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Digital Banking Microservices Architecture",
+        "description": "Constructed multi-module Spring Boot backend managing customer accounts, transactions, and JWT authentication with PostgreSQL and Maven.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Data JPA",
+          "PostgreSQL",
+          "JWT"
+        ]
+      },
+      {
+        "title": "Inventory Management REST APIs",
+        "description": "Engineered transactional order booking system enforcing ACID constraints and automated testing with JUnit 5 and Mockito.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Hibernate",
+          "JUnit",
+          "Maven"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "Oracle Certified Associate, Java SE Programmer",
+      "Spring Framework Masterclass - Udemy"
+    ],
+    "other_information": "Well versed in Java OOP, multi-threading, concurrency, and SOLID principles."
+  },
+  {
+    "candidate_id": "CAND-07",
+    "candidate_name": "Kavya Menon",
+    "email": "kavya.menon.test@example.com",
+    "target_category": "Software Development",
+    "scenario_description": "C++ + DSA candidate -> Software Development / Core Engineering internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science and Engineering",
+      "college": "Indian Institute of Technology, Madras",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "C++",
+        "C",
+        "Python"
+      ],
+      "frameworks": [
+        "STL",
+        "Boost",
+        "Google Test"
+      ],
+      "tools": [
+        "GDB",
+        "Valgrind",
+        "CMake",
+        "Git",
+        "Linux"
+      ]
+    },
+    "projects": [
+      {
+        "title": "High-Performance In-Memory Key-Value Store",
+        "description": "Implemented thread-safe lock-free hash table in C++20 with custom memory allocator and LRU eviction policy.",
+        "technologies": [
+          "C++",
+          "Data Structures",
+          "Algorithms",
+          "Concurrency",
+          "CMake"
+        ]
+      },
+      {
+        "title": "Network Packet Sniffer & Flow Analyzer",
+        "description": "Developed low-latency socket packet capture engine decoding TCP/UDP headers and calculating jitter.",
+        "technologies": [
+          "C++",
+          "Socket Programming",
+          "Linux",
+          "GDB"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "Codeforces Candidate Master (Rating: 1940)",
+      "LeetCode 500+ Problems Solved"
+    ],
+    "other_information": "Top 1% in algorithmic problem solving and low-level systems programming."
+  },
+  {
+    "candidate_id": "CAND-08",
+    "candidate_name": "Vikram Singh",
+    "email": "vikram.singh.test@example.com",
+    "target_category": "Artificial Intelligence",
+    "scenario_description": "TensorFlow + Deep Learning candidate -> Deep Learning / AI internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "college": "Delhi Technological University",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C++"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "OpenCV"
+      ],
+      "tools": [
+        "NumPy",
+        "Matplotlib",
+        "Albumentations",
+        "Git",
+        "Google Colab",
+        "Docker"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Autonomous Vehicle Lane & Obstacle Segmentation",
+        "description": "Trained deep convolutional UNet in TensorFlow/Keras on Cityscapes dataset achieving 0.81 mIoU with real-time inference.",
+        "technologies": [
+          "Python",
+          "TensorFlow",
+          "Keras",
+          "Computer Vision",
+          "OpenCV",
+          "Deep Learning"
+        ]
+      },
+      {
+        "title": "Facial Emotion & Mask Detection",
+        "description": "Fine-tuned MobileNetV2 with transfer learning for edge deployment on Raspberry Pi with OpenCV video stream.",
+        "technologies": [
+          "Python",
+          "TensorFlow",
+          "OpenCV",
+          "Transfer Learning"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Computer Vision Intern",
+        "company": "AutoVision Technologies",
+        "duration": "3 months",
+        "description": "Optimized image augmentation pipelines and converted TensorFlow weights to TFLite for mobile execution."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Deep Learning Specialization - Coursera",
+      "TensorFlow Developer Certificate"
+    ],
+    "other_information": "Experienced with GPU training clusters and convolutional neural architectures."
+  },
+  {
+    "candidate_id": "CAND-09",
+    "candidate_name": "Neha Kulkarni",
+    "email": "neha.kulkarni.test@example.com",
+    "target_category": "Data Analytics",
+    "scenario_description": "Python + Data Analysis candidate -> Data Analytics internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science and Business Systems",
+      "college": "Savitribai Phule Pune University",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Pandas",
+        "NumPy"
+      ],
+      "tools": [
+        "PowerBI",
+        "Tableau",
+        "Excel",
+        "Matplotlib",
+        "Seaborn",
+        "Git"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Sales Revenue & Cohort Retention Dashboard",
+        "description": "Cleaned 500k row transactional sales dataset in Python Pandas, constructed SQL aggregations, and authored PowerBI executive dashboard.",
+        "technologies": [
+          "Python",
+          "Data Analysis",
+          "SQL",
+          "Pandas",
+          "PowerBI",
+          "Excel"
+        ]
+      },
+      {
+        "title": "Customer Segmentation & RFM Analysis",
+        "description": "Calculated Recency, Frequency, and Monetary scores on retail data to categorize high-value VIP shopper cohorts.",
+        "technologies": [
+          "Python",
+          "Pandas",
+          "Seaborn",
+          "Data Analytics"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Business Analyst Intern",
+        "company": "Kurate Data Insights",
+        "duration": "3 months",
+        "description": "Drafted automated weekly KPI performance sheets in Excel and created SQL data extracts for business leadership."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Google Data Analytics Professional Certificate",
+      "Microsoft Certified: Power BI Data Analyst Associate"
+    ],
+    "other_information": "Strong passion for business metric definitions and data-driven storytelling."
+  },
+  {
+    "candidate_id": "CAND-10",
+    "candidate_name": "Arjun Singhania",
+    "email": "arjun.singhania.test@example.com",
+    "target_category": "Full Stack Development",
+    "scenario_description": "Python + Django + React candidate -> Full Stack internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Information Technology",
+      "college": "Manipal Institute of Technology",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "frameworks": [
+        "Django",
+        "Django REST Framework",
+        "React",
+        "Tailwind CSS"
+      ],
+      "tools": [
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "Postman",
+        "Linux",
+        "Node.js"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Enterprise Project Management Web Suite",
+        "description": "Developed full stack platform with React SPA frontend, Tailwind CSS styles, and Django REST backend backed by PostgreSQL with JWT auth.",
+        "technologies": [
+          "Python",
+          "Django",
+          "React",
+          "JavaScript",
+          "PostgreSQL",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Real-time Polls & Discussion Platform",
+        "description": "Implemented Django Channels WebSocket consumers and React client-side live chart visualizations.",
+        "technologies": [
+          "Python",
+          "Django",
+          "React",
+          "WebSockets",
+          "SQL"
+        ]
+      }
+    ],
+    "internship_experience": [
+      {
+        "role": "Full Stack Intern",
+        "company": "AppCraft Solutions",
+        "duration": "4 months",
+        "description": "Built full-stack features from frontend forms in React to backend API views in Django; containerized application with Docker Compose."
+      }
+    ],
+    "work_experience": [],
+    "certifications": [
+      "Full Stack Web Development with React and Python",
+      "Docker Essentials"
+    ],
+    "other_information": "Enjoys bridging backend API services with clean, reactive user interfaces."
+  },
+  {
+    "candidate_id": "EDGE-01",
+    "candidate_name": "Edge NoSkills Candidate",
+    "email": "edge.noskills@example.com",
+    "target_category": "Edge Case - No Skills",
+    "scenario_description": "Resume with no technical skills (empty skills dictionary/lists)",
+    "education": {
+      "degree": "B.A.",
+      "specialization": "English Literature",
+      "college": "City College of Arts",
+      "graduation_year": 2024
+    },
+    "technical_skills": {
+      "programming_languages": [],
+      "frameworks": [],
+      "tools": []
+    },
+    "projects": [],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Interested in exploring tech opportunities with a non-technical background."
+  },
+  {
+    "candidate_id": "EDGE-02",
+    "candidate_name": "Edge MissingEdu Candidate",
+    "email": "edge.missingedu@example.com",
+    "target_category": "Edge Case - Missing Education",
+    "scenario_description": "Resume with missing education information (null/empty values)",
+    "education": {
+      "degree": null,
+      "specialization": null,
+      "college": null,
+      "graduation_year": null
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Django"
+      ],
+      "tools": [
+        "Git",
+        "PostgreSQL"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Self-Taught Django Backend",
+        "description": "Built standalone REST APIs in Django without formal degree credentials.",
+        "technologies": [
+          "Python",
+          "Django",
+          "SQL"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "Self Taught Programmer Certificate"
+    ],
+    "other_information": "Self-directed developer with no university background listed."
+  },
+  {
+    "candidate_id": "EDGE-03",
+    "candidate_name": "Edge Polyglot Candidate",
+    "email": "edge.polyglot@example.com",
+    "target_category": "Edge Case - Multiple Languages",
+    "scenario_description": "Resume with 7+ multiple programming languages and diverse frameworks",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science",
+      "college": "State Technical University",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby",
+        "PHP",
+        "Kotlin",
+        "Swift"
+      ],
+      "frameworks": [
+        "Django",
+        "Spring Boot",
+        "React",
+        "Vue.js",
+        "Express",
+        "Flask",
+        "Flutter"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Cross-Language Benchmarking Utility",
+        "description": "Built benchmark suite testing concurrency in Go, Rust, Java, and Python.",
+        "technologies": [
+          "Go",
+          "Rust",
+          "Java",
+          "Python"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Polyglot software enthusiast experimenting with many ecosystems."
+  },
+  {
+    "candidate_id": "EDGE-04",
+    "candidate_name": "Edge UnrelatedProjects Candidate",
+    "email": "edge.unrelated@example.com",
+    "target_category": "Edge Case - Unrelated Projects",
+    "scenario_description": "Resume with unrelated projects (music production, culinary website, photography blog)",
+    "education": {
+      "degree": "B.Sc",
+      "specialization": "Media & Fine Arts",
+      "college": "Creative Arts Academy",
+      "graduation_year": 2024
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Audacity",
+        "Photoshop",
+        "Lightroom",
+        "WordPress"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Audio Mastering & Sound Design Portfolio",
+        "description": "Composed 12 soundtrack tracks and mixed audio levels for indie films.",
+        "technologies": [
+          "Audacity",
+          "Logic Pro",
+          "Sound Editing"
+        ]
+      },
+      {
+        "title": "Artisanal Bakery Recipe Blog",
+        "description": "Authored food photography articles on a hosted WordPress installation.",
+        "technologies": [
+          "WordPress",
+          "Photography",
+          "SEO"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "Sound Design Masterclass"
+    ],
+    "other_information": "Creative artist looking to see if python scripting skills match any tech role."
+  },
+  {
+    "candidate_id": "EDGE-05",
+    "candidate_name": "Edge AcademicOnly Candidate",
+    "email": "edge.academiconly@example.com",
+    "target_category": "Edge Case - Academic Only No Experience",
+    "scenario_description": "Resume with only theoretical academic lab assignments and zero experience/internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science",
+      "college": "Regional Engineering College",
+      "graduation_year": 2026
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "Java"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Turbo C++",
+        "Eclipse",
+        "Linux Command Line"
+      ]
+    },
+    "projects": [
+      {
+        "title": "College Operating Systems Lab Assignment",
+        "description": "Implemented round robin CPU scheduling simulator and semaphore synchronization in C for college coursework lab.",
+        "technologies": [
+          "C",
+          "Operating Systems",
+          "Algorithms"
+        ]
+      },
+      {
+        "title": "DBMS Coursework Hospital Record Script",
+        "description": "Created normalized 3NF relational tables and basic SQL queries for DBMS lab examination.",
+        "technologies": [
+          "SQL",
+          "DBMS",
+          "MySQL"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Pre-final year student with only syllabus lab coursework."
+  },
+  {
+    "candidate_id": "EDGE-06",
+    "candidate_name": "Edge EmptyDb Candidate",
+    "email": "edge.emptydb@example.com",
+    "target_category": "Backend Development",
+    "scenario_description": "Standard candidate used to test resilience when searching an empty internship database",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Information Technology",
+      "college": "Anna University",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python"
+      ],
+      "frameworks": [
+        "Django"
+      ],
+      "tools": [
+        "Git",
+        "SQL"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Django Blog",
+        "description": "Simple article posting website with comments in Django.",
+        "technologies": [
+          "Python",
+          "Django"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Test profile for database state resilience."
+  },
+  {
+    "candidate_id": "EDGE-07",
+    "candidate_name": "Edge PartialMeta Candidate",
+    "email": "edge.partialmeta@example.com",
+    "target_category": "Machine Learning",
+    "scenario_description": "Candidate tested against database containing incomplete or sparse metadata fields",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Computer Science",
+      "college": "JNTU",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python"
+      ],
+      "frameworks": [
+        "Scikit-Learn"
+      ],
+      "tools": [
+        "Pandas"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Iris Species Classifier",
+        "description": "Trained logistic regression on Iris dataset.",
+        "technologies": [
+          "Python",
+          "Scikit-Learn"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Test candidate for partial metadata handling."
+  },
+  {
+    "candidate_id": "EDGE-08",
+    "candidate_name": "Edge DuplicateTest Candidate",
+    "email": "edge.duplicatetest@example.com",
+    "target_category": "Frontend Development",
+    "scenario_description": "Candidate used to verify deduplication behavior when duplicate internships are ingested",
+    "education": {
+      "degree": "BCA",
+      "specialization": "Computer Applications",
+      "college": "Bangalore University",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "frameworks": [
+        "React"
+      ],
+      "tools": [
+        "Git"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Todo List in React",
+        "description": "Simple task list application with local storage.",
+        "technologies": [
+          "React",
+          "JavaScript"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Testing ingestion deduplication stability."
+  },
+  {
+    "candidate_id": "EDGE-09",
+    "candidate_name": "Edge NoMatch Niche Candidate",
+    "email": "edge.nomatch@example.com",
+    "target_category": "Niche - No Available Matches",
+    "scenario_description": "Candidate whose specialized skills (Quantum Computing, Qiskit, FPGA, Verilog) do not match standard internships",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "Electrical Engineering & Quantum Computing",
+      "college": "IIT Bombay",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Verilog",
+        "VHDL",
+        "QASM",
+        "MATLAB"
+      ],
+      "frameworks": [
+        "Qiskit",
+        "Cirq",
+        "Xilinx Vivado"
+      ],
+      "tools": [
+        "FPGA",
+        "Oscilloscope",
+        "Logic Analyzer"
+      ]
+    },
+    "projects": [
+      {
+        "title": "FPGA Cryptographic Accelerator in Verilog",
+        "description": "Synthesized hardware accelerated SHA-256 pipeline on Xilinx Artix-7 FPGA chip.",
+        "technologies": [
+          "Verilog",
+          "FPGA",
+          "Xilinx Vivado"
+        ]
+      },
+      {
+        "title": "Variational Quantum Eigensolver Simulation",
+        "description": "Simulated ground state molecular energies on noisy quantum circuits using Qiskit.",
+        "technologies": [
+          "Qiskit",
+          "Quantum Computing",
+          "Python"
+        ]
+      }
+    ],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [
+      "IBM Certified Associate Developer - Quantum Computation using Qiskit v0.2X"
+    ],
+    "other_information": "Hardware and quantum computing specialist looking for standard IT internships."
+  },
+  {
+    "candidate_id": "EDGE-10",
+    "candidate_name": "Edge Minimal Candidate",
+    "email": "edge.minimal@example.com",
+    "target_category": "Minimal / Ultra Short",
+    "scenario_description": "Very short resume with 1 line of skills and minimal words",
+    "education": {
+      "degree": "B.Tech",
+      "specialization": "CS",
+      "college": "XYZ College",
+      "graduation_year": 2025
+    },
+    "technical_skills": {
+      "programming_languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": []
+    },
+    "projects": [],
+    "internship_experience": [],
+    "work_experience": [],
+    "certifications": [],
+    "other_information": "Python beginner."
+  }
+]

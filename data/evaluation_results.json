@@ -1,0 +1,2826 @@
+{
+  "evaluation_timestamp": "2026-11-14 19:57:33",
+  "k_metric": 5,
+  "num_candidates_tested": 10,
+  "total_internships_in_database": 60,
+  "method_comparison": {
+    "dense": {
+      "method_name": "Dense Vector Search (Cosine Similarity)",
+      "precision_at_5": 0.88,
+      "recall_at_5": 0.3195,
+      "mean_reciprocal_rank_mrr": 0.9,
+      "hit_rate_at_5": 1.0,
+      "avg_latency_ms": 578.74
+    },
+    "keyword": {
+      "method_name": "Keyword Search (Lexical Overlap)",
+      "precision_at_5": 0.9,
+      "recall_at_5": 0.325,
+      "mean_reciprocal_rank_mrr": 1.0,
+      "hit_rate_at_5": 1.0,
+      "avg_latency_ms": 51.55
+    },
+    "hybrid": {
+      "method_name": "Hybrid Search (Dense + Keyword)",
+      "precision_at_5": 0.92,
+      "recall_at_5": 0.3306,
+      "mean_reciprocal_rank_mrr": 0.95,
+      "hit_rate_at_5": 1.0,
+      "avg_latency_ms": 48.6
+    },
+    "hybrid_rerank": {
+      "method_name": "Hybrid Search with Re-ranking (Full Pipeline)",
+      "precision_at_5": 0.9,
+      "recall_at_5": 0.325,
+      "mean_reciprocal_rank_mrr": 1.0,
+      "hit_rate_at_5": 1.0,
+      "avg_latency_ms": 48.89
+    }
+  },
+  "candidate_detailed_runs": {
+    "dense": [
+      {
+        "candidate_id": "CAND-01",
+        "candidate_name": "Aarav Sharma",
+        "target_category": "Backend Development",
+        "scenario_description": "Python + Django candidate -> Backend internships",
+        "relevant_categories": [
+          "Backend Development",
+          "Python Development"
+        ],
+        "latency_ms": 5298.06,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.7383,
+            "overall_ranking_score": 0.8288,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7,
+            "overall_ranking_score": 0.7638,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.6715,
+            "overall_ranking_score": 0.7025,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-BE-003",
+            "title": "Flask Backend & Cloud Integrations Intern",
+            "company_name": "CloudNimbus Solutions [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6367,
+            "overall_ranking_score": 0.6213,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-BE-002",
+            "title": "FastAPI Microservices Intern",
+            "company_name": "Velox Microservices [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.626,
+            "overall_ranking_score": 0.6238,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-02",
+        "candidate_name": "Priya Patel",
+        "target_category": "Machine Learning",
+        "scenario_description": "Python + Machine Learning candidate -> AI/ML internships",
+        "relevant_categories": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Data Science"
+        ],
+        "latency_ms": 50.12,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7348,
+            "overall_ranking_score": 0.775,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-ML-006",
+            "title": "Fraud Detection ML Intern",
+            "company_name": "FinShield Risk Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.6147,
+            "overall_ranking_score": 0.6333,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-ML-002",
+            "title": "MLOps & Pipeline Engineering Intern",
+            "company_name": "PipelineOps Tech [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5707,
+            "overall_ranking_score": 0.5425,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5508,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5494,
+            "overall_ranking_score": 0.5712,
+            "is_relevant": false
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-03",
+        "candidate_name": "Rohan Deshmukh",
+        "target_category": "Data Science",
+        "scenario_description": "SQL + Statistics candidate -> Data Science internships",
+        "relevant_categories": [
+          "Data Science",
+          "Data Analytics"
+        ],
+        "latency_ms": 53.08,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 0.5,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.673,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": false
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6383,
+            "overall_ranking_score": 0.8375,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DS-005",
+            "title": "A/B Testing & Causal Inference Intern",
+            "company_name": "Experimentation Engine [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6381,
+            "overall_ranking_score": 0.7704,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DS-002",
+            "title": "Quantitative Data Scientist Intern",
+            "company_name": "AlphaMetrics Capital [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6027,
+            "overall_ranking_score": 0.7208,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5938,
+            "overall_ranking_score": 0.7,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-04",
+        "candidate_name": "Ananya Iyer",
+        "target_category": "Frontend Development",
+        "scenario_description": "React + JavaScript candidate -> Frontend internships",
+        "relevant_categories": [
+          "Frontend Development",
+          "Full Stack Development"
+        ],
+        "latency_ms": 53.91,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.7173,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FE-005",
+            "title": "UI/UX Design Systems & Frontend Intern",
+            "company_name": "DesignSystem Core [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6635,
+            "overall_ranking_score": 0.8262,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FE-003",
+            "title": "Next.js & Frontend Performance Intern",
+            "company_name": "Apex Web Experience [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6409,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-002",
+            "title": "Modern JavaScript & Vue.js Intern",
+            "company_name": "VueStream Interfaces [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6068,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.5959,
+            "overall_ranking_score": 0.6937,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-05",
+        "candidate_name": "Aditya Verma",
+        "target_category": "Generative AI",
+        "scenario_description": "Python + NLP + LLM candidate -> Generative AI internships",
+        "relevant_categories": [
+          "Generative AI",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 48.69,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-GENAI-001",
+            "title": "Generative AI & LLM Systems Intern",
+            "company_name": "Nexus Frontier Generative AI [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6875,
+            "overall_ranking_score": 0.6963,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-GENAI-002",
+            "title": "RAG & Vector Search Engineering Intern",
+            "company_name": "SemanticRetriever Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6865,
+            "overall_ranking_score": 0.7063,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-GENAI-003",
+            "title": "LLM Fine-Tuning & Prompt Engineering Intern",
+            "company_name": "TuringPrompt Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6065,
+            "overall_ranking_score": 0.65,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-GENAI-006",
+            "title": "Generative AI Evaluation & Safety Intern",
+            "company_name": "SafeGen Guardrails [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.5099,
+            "overall_ranking_score": 0.5363,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.4919,
+            "overall_ranking_score": 0.6088,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-06",
+        "candidate_name": "Siddharth Nair",
+        "target_category": "Java Development",
+        "scenario_description": "Java + Spring Boot candidate -> Java Backend internships",
+        "relevant_categories": [
+          "Java Development",
+          "Backend Development"
+        ],
+        "latency_ms": 98.4,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-JAVA-001",
+            "title": "Java Spring Boot Backend Intern",
+            "company_name": "Enterprise Logic Works [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.7285,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-JAVA-006",
+            "title": "Java FinTech & Transaction Systems Intern",
+            "company_name": "FinPay Java Architectures [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6554,
+            "overall_ranking_score": 0.6837,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-JAVA-005",
+            "title": "Java Security & Identity Engineering Intern",
+            "company_name": "AuthSecure Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6443,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-JAVA-003",
+            "title": "Java Core & Algorithms Intern",
+            "company_name": "Algorithmic Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6347,
+            "overall_ranking_score": 0.6613,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-006",
+            "title": "Java Spring Boot + Angular Full Stack Intern",
+            "company_name": "GlobalEnterprise Solutions [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6157,
+            "overall_ranking_score": 0.7525,
+            "is_relevant": false
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-07",
+        "candidate_name": "Kavya Menon",
+        "target_category": "Software Development",
+        "scenario_description": "C++ + DSA candidate -> Software Development / Core Engineering internships",
+        "relevant_categories": [
+          "Python Development",
+          "Backend Development",
+          "Artificial Intelligence"
+        ],
+        "latency_ms": 46.35,
+        "metrics": {
+          "precision_at_k": 0.6,
+          "recall_at_k": 0.1667,
+          "mrr": 0.5,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-JAVA-003",
+            "title": "Java Core & Algorithms Intern",
+            "company_name": "Algorithmic Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.5731,
+            "overall_ranking_score": 0.3725,
+            "is_relevant": false
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-PY-006",
+            "title": "Python Distributed Systems Intern",
+            "company_name": "ScaleGrid Computing [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5613,
+            "overall_ranking_score": 0.3763,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-005",
+            "title": "Go / Golang Backend Systems Intern",
+            "company_name": "GopherScale Infrastructure [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.5108,
+            "overall_ranking_score": 0.3163,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4488,
+            "overall_ranking_score": 0.345,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-JAVA-005",
+            "title": "Java Security & Identity Engineering Intern",
+            "company_name": "AuthSecure Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.4356,
+            "overall_ranking_score": 0.285,
+            "is_relevant": false
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-08",
+        "candidate_name": "Vikram Singh",
+        "target_category": "Artificial Intelligence",
+        "scenario_description": "TensorFlow + Deep Learning candidate -> Deep Learning / AI internships",
+        "relevant_categories": [
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 47.99,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-005",
+            "title": "Deep Learning Computer Vision Intern",
+            "company_name": "Visionary AI Systems [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7396,
+            "overall_ranking_score": 0.9038,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-AI-001",
+            "title": "AI Research & Computer Vision Intern",
+            "company_name": "Cognitive Vision Labs [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.7229,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.6227,
+            "overall_ranking_score": 0.7188,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5699,
+            "overall_ranking_score": 0.5175,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-AI-005",
+            "title": "Medical Imaging AI Intern",
+            "company_name": "HealthVision Biometrics [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.5596,
+            "overall_ranking_score": 0.6171,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-09",
+        "candidate_name": "Neha Kulkarni",
+        "target_category": "Data Analytics",
+        "scenario_description": "Python + Data Analysis candidate -> Data Analytics internships",
+        "relevant_categories": [
+          "Data Analytics",
+          "Data Science"
+        ],
+        "latency_ms": 45.58,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DS-004",
+            "title": "Customer Intelligence Data Scientist Intern",
+            "company_name": "OmniRetail Insights [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.663,
+            "overall_ranking_score": 0.7458,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6593,
+            "overall_ranking_score": 0.86,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DA-003",
+            "title": "Marketing Analytics & Growth Intern",
+            "company_name": "GrowthMetric Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6059,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5965,
+            "overall_ranking_score": 0.7792,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-006",
+            "title": "Product Analytics & User Telemetry Intern",
+            "company_name": "PulseProduct Insights [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5847,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-10",
+        "candidate_name": "Arjun Singhania",
+        "target_category": "Full Stack Development",
+        "scenario_description": "Python + Django + React candidate -> Full Stack internships",
+        "relevant_categories": [
+          "Full Stack Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "latency_ms": 45.19,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7997,
+            "overall_ranking_score": 0.8825,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6849,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6832,
+            "overall_ranking_score": 0.8037,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FS-004",
+            "title": "Next.js Full Stack & Serverless Intern",
+            "company_name": "Veloce Web Systems [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6641,
+            "overall_ranking_score": 0.7687,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6575,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": true
+          }
+        ]
+      }
+    ],
+    "keyword": [
+      {
+        "candidate_id": "CAND-01",
+        "candidate_name": "Aarav Sharma",
+        "target_category": "Backend Development",
+        "scenario_description": "Python + Django candidate -> Backend internships",
+        "relevant_categories": [
+          "Backend Development",
+          "Python Development"
+        ],
+        "latency_ms": 46.01,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.7383,
+            "overall_ranking_score": 0.8288,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-BE-006",
+            "title": "Database & Query Optimization Backend Intern",
+            "company_name": "DataScale Database Labs [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6123,
+            "overall_ranking_score": 0.7375,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7,
+            "overall_ranking_score": 0.7638,
+            "is_relevant": false
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.6715,
+            "overall_ranking_score": 0.7025,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-BE-003",
+            "title": "Flask Backend & Cloud Integrations Intern",
+            "company_name": "CloudNimbus Solutions [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6367,
+            "overall_ranking_score": 0.6213,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-02",
+        "candidate_name": "Priya Patel",
+        "target_category": "Machine Learning",
+        "scenario_description": "Python + Machine Learning candidate -> AI/ML internships",
+        "relevant_categories": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Data Science"
+        ],
+        "latency_ms": 45.75,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7348,
+            "overall_ranking_score": 0.775,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-ML-004",
+            "title": "Recommendation Systems Intern",
+            "company_name": "EngageRecs Platform [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5287,
+            "overall_ranking_score": 0.7,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5508,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.4786,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DS-002",
+            "title": "Quantitative Data Scientist Intern",
+            "company_name": "AlphaMetrics Capital [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.4777,
+            "overall_ranking_score": 0.6817,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-03",
+        "candidate_name": "Rohan Deshmukh",
+        "target_category": "Data Science",
+        "scenario_description": "SQL + Statistics candidate -> Data Science internships",
+        "relevant_categories": [
+          "Data Science",
+          "Data Analytics"
+        ],
+        "latency_ms": 41.65,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6383,
+            "overall_ranking_score": 0.8375,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.673,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DS-005",
+            "title": "A/B Testing & Causal Inference Intern",
+            "company_name": "Experimentation Engine [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6381,
+            "overall_ranking_score": 0.7704,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DA-004",
+            "title": "Supply Chain & Operations Analytics Intern",
+            "company_name": "LogiOptima Analytics [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5237,
+            "overall_ranking_score": 0.7542,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.4944,
+            "overall_ranking_score": 0.7417,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-04",
+        "candidate_name": "Ananya Iyer",
+        "target_category": "Frontend Development",
+        "scenario_description": "React + JavaScript candidate -> Frontend internships",
+        "relevant_categories": [
+          "Frontend Development",
+          "Full Stack Development"
+        ],
+        "latency_ms": 47.59,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.7173,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FE-005",
+            "title": "UI/UX Design Systems & Frontend Intern",
+            "company_name": "DesignSystem Core [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6635,
+            "overall_ranking_score": 0.8262,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FE-003",
+            "title": "Next.js & Frontend Performance Intern",
+            "company_name": "Apex Web Experience [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6409,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-006",
+            "title": "Mobile-Web & Progressive Web App (PWA) Intern",
+            "company_name": "MobilityFrontier [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.4968,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FE-002",
+            "title": "Modern JavaScript & Vue.js Intern",
+            "company_name": "VueStream Interfaces [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6068,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-05",
+        "candidate_name": "Aditya Verma",
+        "target_category": "Generative AI",
+        "scenario_description": "Python + NLP + LLM candidate -> Generative AI internships",
+        "relevant_categories": [
+          "Generative AI",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 44.82,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-GENAI-002",
+            "title": "RAG & Vector Search Engineering Intern",
+            "company_name": "SemanticRetriever Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6865,
+            "overall_ranking_score": 0.7063,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-GENAI-004",
+            "title": "Multimodal Generative AI Intern",
+            "company_name": "VisionaryGenerative [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.4499,
+            "overall_ranking_score": 0.6562,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FS-003",
+            "title": "FastAPI + Vue.js Full Stack Intern",
+            "company_name": "AgileStack Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.4305,
+            "overall_ranking_score": 0.6125,
+            "is_relevant": false
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-GENAI-001",
+            "title": "Generative AI & LLM Systems Intern",
+            "company_name": "Nexus Frontier Generative AI [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6875,
+            "overall_ranking_score": 0.6963,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-GENAI-003",
+            "title": "LLM Fine-Tuning & Prompt Engineering Intern",
+            "company_name": "TuringPrompt Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6065,
+            "overall_ranking_score": 0.65,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-06",
+        "candidate_name": "Siddharth Nair",
+        "target_category": "Java Development",
+        "scenario_description": "Java + Spring Boot candidate -> Java Backend internships",
+        "relevant_categories": [
+          "Java Development",
+          "Backend Development"
+        ],
+        "latency_ms": 48.46,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-JAVA-001",
+            "title": "Java Spring Boot Backend Intern",
+            "company_name": "Enterprise Logic Works [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.7285,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-006",
+            "title": "Java Spring Boot + Angular Full Stack Intern",
+            "company_name": "GlobalEnterprise Solutions [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6157,
+            "overall_ranking_score": 0.7525,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-JAVA-005",
+            "title": "Java Security & Identity Engineering Intern",
+            "company_name": "AuthSecure Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6443,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-JAVA-004",
+            "title": "Java Messaging & Event-Driven Systems Intern",
+            "company_name": "StreamPulse Event Labs [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.5721,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-JAVA-006",
+            "title": "Java FinTech & Transaction Systems Intern",
+            "company_name": "FinPay Java Architectures [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6554,
+            "overall_ranking_score": 0.6837,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-07",
+        "candidate_name": "Kavya Menon",
+        "target_category": "Software Development",
+        "scenario_description": "C++ + DSA candidate -> Software Development / Core Engineering internships",
+        "relevant_categories": [
+          "Python Development",
+          "Backend Development",
+          "Artificial Intelligence"
+        ],
+        "latency_ms": 40.86,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-PY-001",
+            "title": "Python Core & Automation Engineer Intern",
+            "company_name": "PyCore Automations [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4288,
+            "overall_ranking_score": 0.4612,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-PY-005",
+            "title": "Python Test Automation & QA Intern",
+            "company_name": "QualityFirst Systems [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4251,
+            "overall_ranking_score": 0.405,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-006",
+            "title": "Database & Query Optimization Backend Intern",
+            "company_name": "DataScale Database Labs [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.4013,
+            "overall_ranking_score": 0.4013,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.378,
+            "overall_ranking_score": 0.37,
+            "is_relevant": false
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-PY-006",
+            "title": "Python Distributed Systems Intern",
+            "company_name": "ScaleGrid Computing [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5613,
+            "overall_ranking_score": 0.3763,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-08",
+        "candidate_name": "Vikram Singh",
+        "target_category": "Artificial Intelligence",
+        "scenario_description": "TensorFlow + Deep Learning candidate -> Deep Learning / AI internships",
+        "relevant_categories": [
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 50.05,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-005",
+            "title": "Deep Learning Computer Vision Intern",
+            "company_name": "Visionary AI Systems [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7396,
+            "overall_ranking_score": 0.9038,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-AI-001",
+            "title": "AI Research & Computer Vision Intern",
+            "company_name": "Cognitive Vision Labs [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.7229,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-AI-004",
+            "title": "Reinforcement Learning & Simulation Intern",
+            "company_name": "Kinetic Autonomy [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.4985,
+            "overall_ranking_score": 0.6475,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.6227,
+            "overall_ranking_score": 0.7188,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-ML-004",
+            "title": "Recommendation Systems Intern",
+            "company_name": "EngageRecs Platform [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.482,
+            "overall_ranking_score": 0.6125,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-09",
+        "candidate_name": "Neha Kulkarni",
+        "target_category": "Data Analytics",
+        "scenario_description": "Python + Data Analysis candidate -> Data Analytics internships",
+        "relevant_categories": [
+          "Data Analytics",
+          "Data Science"
+        ],
+        "latency_ms": 50.39,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6593,
+            "overall_ranking_score": 0.86,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DA-003",
+            "title": "Marketing Analytics & Growth Intern",
+            "company_name": "GrowthMetric Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6059,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5965,
+            "overall_ranking_score": 0.7792,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DA-006",
+            "title": "Product Analytics & User Telemetry Intern",
+            "company_name": "PulseProduct Insights [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5847,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-005",
+            "title": "Financial Analytics & Reporting Intern",
+            "company_name": "FinView Analytics [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5738,
+            "overall_ranking_score": 0.7767,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-10",
+        "candidate_name": "Arjun Singhania",
+        "target_category": "Full Stack Development",
+        "scenario_description": "Python + Django + React candidate -> Full Stack internships",
+        "relevant_categories": [
+          "Full Stack Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "latency_ms": 99.88,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7997,
+            "overall_ranking_score": 0.8825,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6849,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6832,
+            "overall_ranking_score": 0.8037,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6575,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FE-005",
+            "title": "UI/UX Design Systems & Frontend Intern",
+            "company_name": "DesignSystem Core [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.5556,
+            "overall_ranking_score": 0.7575,
+            "is_relevant": true
+          }
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "candidate_id": "CAND-01",
+        "candidate_name": "Aarav Sharma",
+        "target_category": "Backend Development",
+        "scenario_description": "Python + Django candidate -> Backend internships",
+        "relevant_categories": [
+          "Backend Development",
+          "Python Development"
+        ],
+        "latency_ms": 59.24,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.7383,
+            "overall_ranking_score": 0.8288,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7,
+            "overall_ranking_score": 0.7638,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.6715,
+            "overall_ranking_score": 0.7025,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-BE-006",
+            "title": "Database & Query Optimization Backend Intern",
+            "company_name": "DataScale Database Labs [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6123,
+            "overall_ranking_score": 0.7375,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-BE-003",
+            "title": "Flask Backend & Cloud Integrations Intern",
+            "company_name": "CloudNimbus Solutions [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6367,
+            "overall_ranking_score": 0.6213,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-02",
+        "candidate_name": "Priya Patel",
+        "target_category": "Machine Learning",
+        "scenario_description": "Python + Machine Learning candidate -> AI/ML internships",
+        "relevant_categories": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Data Science"
+        ],
+        "latency_ms": 53.48,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7348,
+            "overall_ranking_score": 0.775,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-ML-006",
+            "title": "Fraud Detection ML Intern",
+            "company_name": "FinShield Risk Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.6147,
+            "overall_ranking_score": 0.6333,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5508,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-ML-004",
+            "title": "Recommendation Systems Intern",
+            "company_name": "EngageRecs Platform [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5287,
+            "overall_ranking_score": 0.7,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.4786,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-03",
+        "candidate_name": "Rohan Deshmukh",
+        "target_category": "Data Science",
+        "scenario_description": "SQL + Statistics candidate -> Data Science internships",
+        "relevant_categories": [
+          "Data Science",
+          "Data Analytics"
+        ],
+        "latency_ms": 52.04,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 0.5,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.673,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": false
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6383,
+            "overall_ranking_score": 0.8375,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DS-005",
+            "title": "A/B Testing & Causal Inference Intern",
+            "company_name": "Experimentation Engine [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6381,
+            "overall_ranking_score": 0.7704,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DS-002",
+            "title": "Quantitative Data Scientist Intern",
+            "company_name": "AlphaMetrics Capital [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6027,
+            "overall_ranking_score": 0.7208,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5938,
+            "overall_ranking_score": 0.7,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-04",
+        "candidate_name": "Ananya Iyer",
+        "target_category": "Frontend Development",
+        "scenario_description": "React + JavaScript candidate -> Frontend internships",
+        "relevant_categories": [
+          "Frontend Development",
+          "Full Stack Development"
+        ],
+        "latency_ms": 46.1,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.7173,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FE-005",
+            "title": "UI/UX Design Systems & Frontend Intern",
+            "company_name": "DesignSystem Core [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6635,
+            "overall_ranking_score": 0.8262,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FE-003",
+            "title": "Next.js & Frontend Performance Intern",
+            "company_name": "Apex Web Experience [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6409,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-002",
+            "title": "Modern JavaScript & Vue.js Intern",
+            "company_name": "VueStream Interfaces [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6068,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.5959,
+            "overall_ranking_score": 0.6937,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-05",
+        "candidate_name": "Aditya Verma",
+        "target_category": "Generative AI",
+        "scenario_description": "Python + NLP + LLM candidate -> Generative AI internships",
+        "relevant_categories": [
+          "Generative AI",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 46.78,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-GENAI-002",
+            "title": "RAG & Vector Search Engineering Intern",
+            "company_name": "SemanticRetriever Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6865,
+            "overall_ranking_score": 0.7063,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-GENAI-001",
+            "title": "Generative AI & LLM Systems Intern",
+            "company_name": "Nexus Frontier Generative AI [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6875,
+            "overall_ranking_score": 0.6963,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-GENAI-003",
+            "title": "LLM Fine-Tuning & Prompt Engineering Intern",
+            "company_name": "TuringPrompt Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6065,
+            "overall_ranking_score": 0.65,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-GENAI-004",
+            "title": "Multimodal Generative AI Intern",
+            "company_name": "VisionaryGenerative [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.4499,
+            "overall_ranking_score": 0.6562,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.4919,
+            "overall_ranking_score": 0.6088,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-06",
+        "candidate_name": "Siddharth Nair",
+        "target_category": "Java Development",
+        "scenario_description": "Java + Spring Boot candidate -> Java Backend internships",
+        "relevant_categories": [
+          "Java Development",
+          "Backend Development"
+        ],
+        "latency_ms": 42.0,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-JAVA-001",
+            "title": "Java Spring Boot Backend Intern",
+            "company_name": "Enterprise Logic Works [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.7285,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-006",
+            "title": "Java Spring Boot + Angular Full Stack Intern",
+            "company_name": "GlobalEnterprise Solutions [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6157,
+            "overall_ranking_score": 0.7525,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-JAVA-005",
+            "title": "Java Security & Identity Engineering Intern",
+            "company_name": "AuthSecure Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6443,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-JAVA-006",
+            "title": "Java FinTech & Transaction Systems Intern",
+            "company_name": "FinPay Java Architectures [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6554,
+            "overall_ranking_score": 0.6837,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-JAVA-003",
+            "title": "Java Core & Algorithms Intern",
+            "company_name": "Algorithmic Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6347,
+            "overall_ranking_score": 0.6613,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-07",
+        "candidate_name": "Kavya Menon",
+        "target_category": "Software Development",
+        "scenario_description": "C++ + DSA candidate -> Software Development / Core Engineering internships",
+        "relevant_categories": [
+          "Python Development",
+          "Backend Development",
+          "Artificial Intelligence"
+        ],
+        "latency_ms": 42.56,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-PY-006",
+            "title": "Python Distributed Systems Intern",
+            "company_name": "ScaleGrid Computing [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5613,
+            "overall_ranking_score": 0.3763,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-PY-001",
+            "title": "Python Core & Automation Engineer Intern",
+            "company_name": "PyCore Automations [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4288,
+            "overall_ranking_score": 0.4612,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-JAVA-003",
+            "title": "Java Core & Algorithms Intern",
+            "company_name": "Algorithmic Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.5731,
+            "overall_ranking_score": 0.3725,
+            "is_relevant": false
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-PY-005",
+            "title": "Python Test Automation & QA Intern",
+            "company_name": "QualityFirst Systems [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4251,
+            "overall_ranking_score": 0.405,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4488,
+            "overall_ranking_score": 0.345,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-08",
+        "candidate_name": "Vikram Singh",
+        "target_category": "Artificial Intelligence",
+        "scenario_description": "TensorFlow + Deep Learning candidate -> Deep Learning / AI internships",
+        "relevant_categories": [
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 44.65,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-005",
+            "title": "Deep Learning Computer Vision Intern",
+            "company_name": "Visionary AI Systems [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7396,
+            "overall_ranking_score": 0.9038,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-AI-001",
+            "title": "AI Research & Computer Vision Intern",
+            "company_name": "Cognitive Vision Labs [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.7229,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.6227,
+            "overall_ranking_score": 0.7188,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-AI-004",
+            "title": "Reinforcement Learning & Simulation Intern",
+            "company_name": "Kinetic Autonomy [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.4985,
+            "overall_ranking_score": 0.6475,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-AI-005",
+            "title": "Medical Imaging AI Intern",
+            "company_name": "HealthVision Biometrics [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.5596,
+            "overall_ranking_score": 0.6171,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-09",
+        "candidate_name": "Neha Kulkarni",
+        "target_category": "Data Analytics",
+        "scenario_description": "Python + Data Analysis candidate -> Data Analytics internships",
+        "relevant_categories": [
+          "Data Analytics",
+          "Data Science"
+        ],
+        "latency_ms": 43.67,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6593,
+            "overall_ranking_score": 0.86,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DS-004",
+            "title": "Customer Intelligence Data Scientist Intern",
+            "company_name": "OmniRetail Insights [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.663,
+            "overall_ranking_score": 0.7458,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DA-003",
+            "title": "Marketing Analytics & Growth Intern",
+            "company_name": "GrowthMetric Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6059,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5965,
+            "overall_ranking_score": 0.7792,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-006",
+            "title": "Product Analytics & User Telemetry Intern",
+            "company_name": "PulseProduct Insights [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5847,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-10",
+        "candidate_name": "Arjun Singhania",
+        "target_category": "Full Stack Development",
+        "scenario_description": "Python + Django + React candidate -> Full Stack internships",
+        "relevant_categories": [
+          "Full Stack Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "latency_ms": 55.5,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7997,
+            "overall_ranking_score": 0.8825,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6849,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6832,
+            "overall_ranking_score": 0.8037,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6575,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-004",
+            "title": "Next.js Full Stack & Serverless Intern",
+            "company_name": "Veloce Web Systems [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6641,
+            "overall_ranking_score": 0.7687,
+            "is_relevant": true
+          }
+        ]
+      }
+    ],
+    "hybrid_rerank": [
+      {
+        "candidate_id": "CAND-01",
+        "candidate_name": "Aarav Sharma",
+        "target_category": "Backend Development",
+        "scenario_description": "Python + Django candidate -> Backend internships",
+        "relevant_categories": [
+          "Backend Development",
+          "Python Development"
+        ],
+        "latency_ms": 49.21,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.7383,
+            "overall_ranking_score": 0.8288,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7,
+            "overall_ranking_score": 0.7638,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-006",
+            "title": "Database & Query Optimization Backend Intern",
+            "company_name": "DataScale Database Labs [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6123,
+            "overall_ranking_score": 0.7375,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-PY-004",
+            "title": "Python Data Engineering Intern",
+            "company_name": "DataNexus Pipelines [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.6715,
+            "overall_ranking_score": 0.7025,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-PY-006",
+            "title": "Python Distributed Systems Intern",
+            "company_name": "ScaleGrid Computing [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5744,
+            "overall_ranking_score": 0.6258,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-02",
+        "candidate_name": "Priya Patel",
+        "target_category": "Machine Learning",
+        "scenario_description": "Python + Machine Learning candidate -> AI/ML internships",
+        "relevant_categories": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Data Science"
+        ],
+        "latency_ms": 40.84,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-001",
+            "title": "Machine Learning Engineer Intern",
+            "company_name": "Predictive Matrix Labs [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7348,
+            "overall_ranking_score": 0.775,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.4786,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-ML-004",
+            "title": "Recommendation Systems Intern",
+            "company_name": "EngageRecs Platform [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5287,
+            "overall_ranking_score": 0.7,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.5508,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DS-002",
+            "title": "Quantitative Data Scientist Intern",
+            "company_name": "AlphaMetrics Capital [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.4777,
+            "overall_ranking_score": 0.6817,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-03",
+        "candidate_name": "Rohan Deshmukh",
+        "target_category": "Data Science",
+        "scenario_description": "SQL + Statistics candidate -> Data Science internships",
+        "relevant_categories": [
+          "Data Science",
+          "Data Analytics"
+        ],
+        "latency_ms": 44.36,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6383,
+            "overall_ranking_score": 0.8375,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-ML-003",
+            "title": "Time Series Forecasting Intern",
+            "company_name": "QuantChrono Analytics [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.673,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DS-005",
+            "title": "A/B Testing & Causal Inference Intern",
+            "company_name": "Experimentation Engine [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.6381,
+            "overall_ranking_score": 0.7704,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DA-004",
+            "title": "Supply Chain & Operations Analytics Intern",
+            "company_name": "LogiOptima Analytics [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5237,
+            "overall_ranking_score": 0.7542,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.4944,
+            "overall_ranking_score": 0.7417,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-04",
+        "candidate_name": "Ananya Iyer",
+        "target_category": "Frontend Development",
+        "scenario_description": "React + JavaScript candidate -> Frontend internships",
+        "relevant_categories": [
+          "Frontend Development",
+          "Full Stack Development"
+        ],
+        "latency_ms": 42.01,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.7173,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FE-005",
+            "title": "UI/UX Design Systems & Frontend Intern",
+            "company_name": "DesignSystem Core [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6635,
+            "overall_ranking_score": 0.8262,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FE-003",
+            "title": "Next.js & Frontend Performance Intern",
+            "company_name": "Apex Web Experience [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6409,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-006",
+            "title": "Mobile-Web & Progressive Web App (PWA) Intern",
+            "company_name": "MobilityFrontier [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.4968,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FE-002",
+            "title": "Modern JavaScript & Vue.js Intern",
+            "company_name": "VueStream Interfaces [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6068,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-05",
+        "candidate_name": "Aditya Verma",
+        "target_category": "Generative AI",
+        "scenario_description": "Python + NLP + LLM candidate -> Generative AI internships",
+        "relevant_categories": [
+          "Generative AI",
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 46.25,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-GENAI-002",
+            "title": "RAG & Vector Search Engineering Intern",
+            "company_name": "SemanticRetriever Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6865,
+            "overall_ranking_score": 0.7063,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-GENAI-001",
+            "title": "Generative AI & LLM Systems Intern",
+            "company_name": "Nexus Frontier Generative AI [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6875,
+            "overall_ranking_score": 0.6963,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-GENAI-004",
+            "title": "Multimodal Generative AI Intern",
+            "company_name": "VisionaryGenerative [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.4499,
+            "overall_ranking_score": 0.6562,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-GENAI-003",
+            "title": "LLM Fine-Tuning & Prompt Engineering Intern",
+            "company_name": "TuringPrompt Labs [Synthetic Benchmark]",
+            "category": "Generative AI",
+            "similarity_score": 0.6065,
+            "overall_ranking_score": 0.65,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-003",
+            "title": "FastAPI + Vue.js Full Stack Intern",
+            "company_name": "AgileStack Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.4305,
+            "overall_ranking_score": 0.6125,
+            "is_relevant": false
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-06",
+        "candidate_name": "Siddharth Nair",
+        "target_category": "Java Development",
+        "scenario_description": "Java + Spring Boot candidate -> Java Backend internships",
+        "relevant_categories": [
+          "Java Development",
+          "Backend Development"
+        ],
+        "latency_ms": 92.59,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.3333,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-JAVA-001",
+            "title": "Java Spring Boot Backend Intern",
+            "company_name": "Enterprise Logic Works [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.7285,
+            "overall_ranking_score": 0.8912,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-FS-006",
+            "title": "Java Spring Boot + Angular Full Stack Intern",
+            "company_name": "GlobalEnterprise Solutions [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6157,
+            "overall_ranking_score": 0.7525,
+            "is_relevant": false
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-JAVA-005",
+            "title": "Java Security & Identity Engineering Intern",
+            "company_name": "AuthSecure Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6443,
+            "overall_ranking_score": 0.7275,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-JAVA-004",
+            "title": "Java Messaging & Event-Driven Systems Intern",
+            "company_name": "StreamPulse Event Labs [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.5721,
+            "overall_ranking_score": 0.69,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-JAVA-006",
+            "title": "Java FinTech & Transaction Systems Intern",
+            "company_name": "FinPay Java Architectures [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.6554,
+            "overall_ranking_score": 0.6837,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-07",
+        "candidate_name": "Kavya Menon",
+        "target_category": "Software Development",
+        "scenario_description": "C++ + DSA candidate -> Software Development / Core Engineering internships",
+        "relevant_categories": [
+          "Python Development",
+          "Backend Development",
+          "Artificial Intelligence"
+        ],
+        "latency_ms": 38.92,
+        "metrics": {
+          "precision_at_k": 0.8,
+          "recall_at_k": 0.2222,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-PY-001",
+            "title": "Python Core & Automation Engineer Intern",
+            "company_name": "PyCore Automations [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4288,
+            "overall_ranking_score": 0.4612,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-PY-005",
+            "title": "Python Test Automation & QA Intern",
+            "company_name": "QualityFirst Systems [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.4251,
+            "overall_ranking_score": 0.405,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-BE-006",
+            "title": "Database & Query Optimization Backend Intern",
+            "company_name": "DataScale Database Labs [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.4013,
+            "overall_ranking_score": 0.4013,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-PY-006",
+            "title": "Python Distributed Systems Intern",
+            "company_name": "ScaleGrid Computing [Synthetic Benchmark]",
+            "category": "Python Development",
+            "similarity_score": 0.5613,
+            "overall_ranking_score": 0.3763,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-JAVA-003",
+            "title": "Java Core & Algorithms Intern",
+            "company_name": "Algorithmic Java Systems [Synthetic Benchmark]",
+            "category": "Java Development",
+            "similarity_score": 0.5731,
+            "overall_ranking_score": 0.3725,
+            "is_relevant": false
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-08",
+        "candidate_name": "Vikram Singh",
+        "target_category": "Artificial Intelligence",
+        "scenario_description": "TensorFlow + Deep Learning candidate -> Deep Learning / AI internships",
+        "relevant_categories": [
+          "Artificial Intelligence",
+          "Machine Learning"
+        ],
+        "latency_ms": 42.69,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-ML-005",
+            "title": "Deep Learning Computer Vision Intern",
+            "company_name": "Visionary AI Systems [Synthetic Benchmark]",
+            "category": "Machine Learning",
+            "similarity_score": 0.7396,
+            "overall_ranking_score": 0.9038,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-AI-001",
+            "title": "AI Research & Computer Vision Intern",
+            "company_name": "Cognitive Vision Labs [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.7229,
+            "overall_ranking_score": 0.7562,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-AI-002",
+            "title": "Applied AI Engineering Intern",
+            "company_name": "Synthetica AI [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.6227,
+            "overall_ranking_score": 0.7188,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-AI-004",
+            "title": "Reinforcement Learning & Simulation Intern",
+            "company_name": "Kinetic Autonomy [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.4985,
+            "overall_ranking_score": 0.6475,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-AI-005",
+            "title": "Medical Imaging AI Intern",
+            "company_name": "HealthVision Biometrics [Synthetic Benchmark]",
+            "category": "Artificial Intelligence",
+            "similarity_score": 0.5596,
+            "overall_ranking_score": 0.6171,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-09",
+        "candidate_name": "Neha Kulkarni",
+        "target_category": "Data Analytics",
+        "scenario_description": "Python + Data Analysis candidate -> Data Analytics internships",
+        "relevant_categories": [
+          "Data Analytics",
+          "Data Science"
+        ],
+        "latency_ms": 45.03,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.4167,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-DA-001",
+            "title": "Business Intelligence & Data Analytics Intern",
+            "company_name": "MetricStream BI Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6593,
+            "overall_ranking_score": 0.86,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-DA-003",
+            "title": "Marketing Analytics & Growth Intern",
+            "company_name": "GrowthMetric Labs [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.6059,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-DA-006",
+            "title": "Product Analytics & User Telemetry Intern",
+            "company_name": "PulseProduct Insights [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5847,
+            "overall_ranking_score": 0.7917,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-DS-001",
+            "title": "Data Science Research Intern",
+            "company_name": "InsightSphere Data Labs [Synthetic Benchmark]",
+            "category": "Data Science",
+            "similarity_score": 0.533,
+            "overall_ranking_score": 0.7812,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-DA-002",
+            "title": "Tableau & Visual Analytics Intern",
+            "company_name": "VisualIQ Intelligence [Synthetic Benchmark]",
+            "category": "Data Analytics",
+            "similarity_score": 0.5965,
+            "overall_ranking_score": 0.7792,
+            "is_relevant": true
+          }
+        ]
+      },
+      {
+        "candidate_id": "CAND-10",
+        "candidate_name": "Arjun Singhania",
+        "target_category": "Full Stack Development",
+        "scenario_description": "Python + Django + React candidate -> Full Stack internships",
+        "relevant_categories": [
+          "Full Stack Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "latency_ms": 46.97,
+        "metrics": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 0.2778,
+          "mrr": 1.0,
+          "hit_rate_at_k": 1.0
+        },
+        "retrieved_results": [
+          {
+            "rank": 1,
+            "internship_id": "INT-FS-001",
+            "title": "Python Full Stack Developer Intern (Django + React)",
+            "company_name": "OmniStack Cloud Labs [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.7997,
+            "overall_ranking_score": 0.8825,
+            "is_relevant": true
+          },
+          {
+            "rank": 2,
+            "internship_id": "INT-BE-001",
+            "title": "Python Backend Engineer Intern (Django / REST)",
+            "company_name": "Apex Cloud Services [Synthetic Benchmark]",
+            "category": "Backend Development",
+            "similarity_score": 0.6832,
+            "overall_ranking_score": 0.8037,
+            "is_relevant": true
+          },
+          {
+            "rank": 3,
+            "internship_id": "INT-FS-005",
+            "title": "Flask + React Full Stack Intern",
+            "company_name": "LiteStack Innovations [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6849,
+            "overall_ranking_score": 0.7975,
+            "is_relevant": true
+          },
+          {
+            "rank": 4,
+            "internship_id": "INT-FE-001",
+            "title": "React.js Frontend Developer Intern",
+            "company_name": "PixelCraft UI Studio [Synthetic Benchmark]",
+            "category": "Frontend Development",
+            "similarity_score": 0.6575,
+            "overall_ranking_score": 0.7725,
+            "is_relevant": true
+          },
+          {
+            "rank": 5,
+            "internship_id": "INT-FS-004",
+            "title": "Next.js Full Stack & Serverless Intern",
+            "company_name": "Veloce Web Systems [Synthetic Benchmark]",
+            "category": "Full Stack Development",
+            "similarity_score": 0.6641,
+            "overall_ranking_score": 0.7687,
+            "is_relevant": true
+          }
+        ]
+      }
+    ]
+  }
+}
